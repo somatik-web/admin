@@ -1,0 +1,24 @@
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE Specific
+.idea
+*.sublime*
+
+# Other
+*.ai
+*.log
+*.pdf
+*.psd
+
+# PHP Specific
+vendor
+bin
+uploads
+
+# Local DB copy
+/data/mysql
+
+# Env specific
+.env
