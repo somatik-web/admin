@@ -42,8 +42,6 @@
     <script>document.addEventListener("DOMContentLoaded", svg4everybody);</script>
     <![endif]--></head>
 <body>
-<main class="main">
-    <div class="main__container"><?= $content ?></div>
-</main>
+<?= $content ?>
 </body>
 </html>
