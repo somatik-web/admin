@@ -8,4 +8,4 @@ use Somatik\Album;
 
 $albums = Album::getAll();
 
-render('admin/login.php', 'Login', ['albums' => $albums]);
+render('login.php', 'Login', ['albums' => $albums]);

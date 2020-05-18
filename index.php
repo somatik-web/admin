@@ -5,4 +5,4 @@ define('__ROOT__', __DIR__ . '/..');
 
 require_once __ROOT__ . '/src/router.php';
 
-route(__DIR__ . '/public');
+route(__DIR__);
